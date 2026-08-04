@@ -24,7 +24,7 @@ An AI-powered multi-agent customer support system built using **CrewAI** and **G
 
 ```
 .
-├── main.py
+├── Ecommerce_CrewAI_GenAI.ipynb
 ├── requirements.txt
 ├── README.md
 ├── Architecture Summary.pdf
