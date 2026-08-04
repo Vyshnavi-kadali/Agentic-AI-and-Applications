@@ -77,24 +77,28 @@ LLM Answer – Generates a precise answer using the augmented prompt.
 
 # Project Structure
 
+```text
 RAG_Project/
 │
-├─ documents/                        # PDF files for ingestion
-│    ├─ Diabetes.pdf
-│    ├─ HIV and AIDS.pdf
-│    ├─ Animal bites.pdf
-│    ├─ TXH Healthcare Queries.pdf
-│    ├─ Andhra Pradesh Arogyasri.pdf
-│    ├─ Nutrition Guide.pdf
-│    ├─ Vaccines and Immunization.pdf
-│    └─ Cardiovascular diseases.pdf
+├── documents/
+│   ├── Diabetes.pdf
+│   ├── HIV and AIDS.pdf
+│   ├── Animal bites.pdf
+│   ├── TXH Healthcare Queries.pdf
+│   ├── Andhra Pradesh Arogyasri.pdf
+│   ├── Nutrition Guide.pdf
+│   ├── Vaccines and Immunization.pdf
+│   └── Cardiovascular diseases.pdf
 │
-├─ ingest.py                         # Ingestion + indexing script
-├─ healthcarebot.py                  # Chatbot script
-├─ Healthcare_FAISS_Index/           # Generated FAISS DB (can optionally be excluded from submission if allowed)
-├─ check_ingestion.py                # Optional script to verify chunks/pages
-├─ requirements.txt                  # All Python dependencies
-└─ README.md                         # Submission instructions
+├── ingest.py
+├── healthcarebot.py
+├── Healthcare_FAISS_Index/
+├── check_ingestion.py
+├── requirements.txt
+└── README.md
+```
+
+---
 
 # Public data source links
 TXH Hospitals: https://txhospitals.in/faqs/
