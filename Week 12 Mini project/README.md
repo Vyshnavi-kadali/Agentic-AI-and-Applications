@@ -28,7 +28,7 @@ An AI-powered multi-agent customer support system built using **CrewAI** and **G
 ├── requirements.txt
 ├── README.md
 ├── Architecture Summary.pdf
-└── screenshots/
+└── output and code explaination.pdf/
 ```
 
 ## Documentation
